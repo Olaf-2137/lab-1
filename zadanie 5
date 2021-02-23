@@ -1,0 +1,42 @@
+package sample;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Wybierz liczbę od 1 do 7");
+        int dzien = scanner.nextInt();
+        switch (dzien) {
+            //dzien pon.
+            case 1:
+                System.out.println("poniedzialek");
+                       break;
+            //dzien wtor.
+            case 2:
+                System.out.println("wtorek");
+                break;
+            //dzien sro.
+            case 3:
+                System.out.println("sroda");
+                break;
+            //dzien czw.
+            case 4:
+                System.out.println("czwartek");
+                break;
+            //dzien pion.
+            case 5:
+                System.out.println("piontek");
+                break;
+            //dzien sob.
+            case 6:
+                System.out.println("sobota");
+                break;
+            //dzien niedz.
+            case 7:
+                System.out.println("niedziela");
+                break;
+
+        }
+
+    }
+}
