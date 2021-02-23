@@ -1,0 +1,27 @@
+package sample;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        //A
+        System.out.println("Bok A -");
+        int a = scanner.nextInt();
+
+            //B
+            System.out.println("Bok B -");
+            int b = scanner.nextInt();
+
+                //C
+                System.out.println("Bok C -");
+                int c = scanner.nextInt();
+
+                //Obliczenia i Sprawdzenie
+        if (a + b > c){
+            System.out.println("Tak");
+        }else{
+            System.out.println("Nie");
+        }
+    }
+}
